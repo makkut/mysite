@@ -436,6 +436,9 @@ a {
     font-size: 18px;
     margin-top: 10px;
 }
+.footer__rechte {
+    text-align: center;
+}
 .footer__tel,
 .footer__mail {
     display: flex;
@@ -501,7 +504,7 @@ a {
     }
 
     .hero__box {
-        min-width: 350px;
+        min-width: 290px;
         justify-self: center;
     }
 }
@@ -564,5 +567,20 @@ a {
 @media (max-width: 579px) {
     .contact_container {
         grid-template-columns: 1fr;
+    }
+
+    .footer {
+        height: 150px;
+    }
+
+    .footer__contact {
+        display: block;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 579px) {
+    .footer {
+        height: auto;
     }
 }
