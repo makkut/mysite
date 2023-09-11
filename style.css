@@ -178,6 +178,7 @@ a {
 
 .project__item img {
   width: 100%;
+  object-fit: cover;
 }
 
 .project__item {
